@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F3EFE0;
+    padding: 1rem;
+    font-size: 14px;
+    color: var(--cor-texto);
+  }
+ 
+ .card {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #666;
+}
+
+.container__produtos {
+
+    border: 1px solid red;
+    margin: 1rem;
+    text-align: center;
+
+}
+
+.imagem-produto {
+
+    width: 40%;
+    height: 40%;
+
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+    .container__produtos {
+        margin-right: 4rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .card {
+        width: calc(40% - 40px);
+    }
+}
+
+/* scroll estilizado */
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #434242;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #22A39F;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #434242;  /* creates padding around scroll thumb */
+  }
+
+  .rodape {
+
+    background-color: #434242;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 7px;
+    box-shadow: 1px 4px #22A39F;
+  
+  }

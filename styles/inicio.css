@@ -1,0 +1,145 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F3EFE0;
+  padding: 1rem;
+  font-size: 14px;
+  color: var(--cor-texto);
+}
+
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 7px;
+  box-shadow: 1px 4px #22A39F;
+
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #434242;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.lista {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+#toggler,
+.navbar label {
+  display: none;
+}
+
+.logo {
+  margin-right: 50px;
+}
+
+.logo-guedes {
+
+  width: 50px;
+
+}
+
+
+
+.container_inicio {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.foto_cliente {
+  max-width: 35%;
+  height: auto;
+  margin-right: 20px;
+  box-shadow: 4px 4px #22A39F;
+  border-radius: 7px;
+}
+
+.text {
+  flex: 1;
+}
+
+.titulo-inicio {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #434242;
+}
+
+.paragrafo-inicio {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #434242;
+}
+
+.botao-insta {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.botao-insta:hover {
+  background-color: #666;
+}
+
+@media (max-width: 767px) {
+  .container_inicio {
+    flex-direction: column;
+  }
+  
+  .foto_cliente {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* scroll estilizado */
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #434242;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #22A39F;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #434242;  /* creates padding around scroll thumb */
+}
+
+.rodape {
+
+  background-color: #434242;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 7px;
+  box-shadow: 1px 4px #22A39F;
+
+}
